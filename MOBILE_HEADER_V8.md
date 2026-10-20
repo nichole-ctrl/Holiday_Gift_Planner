@@ -1,0 +1,1 @@
+v8: Mobile header (760px and below) hides the decorative eyebrow and Account planner status label. Install App and Add a gift share the full header width evenly. Desktop header unchanged. Install App remains hidden in standalone mode. No auth, storage, or deletion logic changed.

@@ -113,3 +113,12 @@ nav a.active .nav-icon{filter:brightness(0) invert(1)}
 .install-app-button[hidden]{display:none!important}
 .install-steps{padding-left:22px;line-height:1.9}.install-steps li{margin-bottom:9px}.install-note{background:var(--sage);padding:12px;border-radius:9px;font-size:12px}
 @media(max-width:760px){.topbar-actions{gap:6px}.install-app-button{padding:9px 10px;font-size:12px}.topbar{gap:7px}.topbar>div:first-child{min-width:0}.topbar .pill{white-space:normal}}
+
+/* v8: Give mobile header space to its two primary actions. Desktop remains unchanged. */
+@media (max-width:760px){
+ .topbar > div:first-child{display:none!important}
+ .topbar{padding:12px 14px}
+ .topbar .topbar-actions{display:flex;width:100%;gap:8px;flex-wrap:nowrap;justify-content:stretch}
+ .topbar .topbar-actions > button{flex:1 1 0;min-width:0;white-space:nowrap;text-align:center;padding:11px 6px;font-size:clamp(11px,3.2vw,14px)}
+ .topbar .topbar-actions > button[hidden]{display:none!important}
+}
