@@ -105,3 +105,11 @@ nav a.active .nav-icon{filter:brightness(0) invert(1)}
 
 /* Launch privacy and account controls */
 .legal-links{margin-top:20px;text-align:center;font-size:12px;line-height:1.8}.legal-links a,.legal-page a,footer a{color:inherit;text-decoration:underline;text-underline-offset:3px}.legal-page{max-width:800px;margin:25px auto;line-height:1.75}.legal-page h1{margin-top:20px}.legal-page h2{margin-top:24px}.danger-zone{border:1px solid #bd776e}.danger-zone .danger{background:#a63830;color:white;border-radius:10px;padding:12px 18px;border:0;cursor:pointer}footer{line-height:1.8}footer a{white-space:nowrap}
+
+/* Installable PWA action */
+.topbar-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:flex-end}
+.install-app-button{border:1px solid #a9bba9;background:#edf3e9;color:var(--green);border-radius:8px;padding:11px 15px;font-weight:700;white-space:nowrap}
+.install-app-button:hover{background:#e0ecdc}
+.install-app-button[hidden]{display:none!important}
+.install-steps{padding-left:22px;line-height:1.9}.install-steps li{margin-bottom:9px}.install-note{background:var(--sage);padding:12px;border-radius:9px;font-size:12px}
+@media(max-width:760px){.topbar-actions{gap:6px}.install-app-button{padding:9px 10px;font-size:12px}.topbar{gap:7px}.topbar>div:first-child{min-width:0}.topbar .pill{white-space:normal}}
