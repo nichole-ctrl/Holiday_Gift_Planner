@@ -1,0 +1,5 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+# Response security headers are defined in public/_headers.
