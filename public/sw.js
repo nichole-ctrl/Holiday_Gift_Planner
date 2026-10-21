@@ -1,6 +1,6 @@
 /* PWA v5: only cache decorative assets. Account pages, scripts,
    Supabase requests, user data and Netlify functions are never cached. */
-const CACHE = 'holiday-gift-planner-assets-v8';
+const CACHE = 'holiday-gift-planner-assets-v11';
 const ASSETS = ['/assets/gift-icon.png','/assets/dashboard-icon.png','/assets/christmas-lights.png','/assets/account-icon.png','/assets/setup-icon.png','/assets/stars-icon.png','/assets/gift-log.png','/assets/pwa-icon-192.png','/assets/pwa-icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));

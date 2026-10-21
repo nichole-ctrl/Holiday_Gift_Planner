@@ -1,0 +1,1 @@
+PWA v11: shows a nonblocking update banner when a new service worker activates. Users choose Update Planner to reload or Later to keep editing. Checks on app focus, visibility, and hourly while open. The service worker continues to cache decorative assets only; account data and scripts are network-served. Initial installation does not show an update banner.
