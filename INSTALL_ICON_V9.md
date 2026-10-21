@@ -1,0 +1,1 @@
+v9: Installation button uses U+2B73 (HTML &#11123;) for both iPhone/iPad “⭳ Add to Home Screen” and other-device “⭳ Install App” labels. Updated both root and public index.html and pwa-register.js, plus JS cache-busting query v9. Preserve this symbol in future versions. No functional PWA changes.

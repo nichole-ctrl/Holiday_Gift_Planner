@@ -113,3 +113,7 @@ nav a.active .nav-icon{filter:brightness(0) invert(1)}
 .install-app-button[hidden]{display:none!important}
 .install-steps{padding-left:22px;line-height:1.9}.install-steps li{margin-bottom:9px}.install-note{background:var(--sage);padding:12px;border-radius:9px;font-size:12px}
 @media(max-width:760px){.topbar-actions{gap:6px}.install-app-button{padding:9px 10px;font-size:12px}.topbar{gap:7px}.topbar>div:first-child{min-width:0}.topbar .pill{white-space:normal}}
+
+/* v10: consistent, font-independent PWA install icon */
+.install-app-button{display:inline-flex;align-items:center;justify-content:center;gap:6px}
+.install-button-icon{display:block;width:17px;height:17px;flex-shrink:0}
