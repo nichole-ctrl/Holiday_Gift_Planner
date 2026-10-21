@@ -9,7 +9,7 @@
   const apple = () => /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
   const update = () => {
     button.hidden = standalone();
-    button.textContent = apple() ? '▣ Add to Home Screen' : '▣ Install App';
+    button.textContent = apple() ? '⭳ Add to Home Screen' : '⭳ Install App';
   };
   function showHelp() {
     content.innerHTML = apple()
